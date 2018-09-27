@@ -11,9 +11,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 
-<div>
-    <h1> Sample Crude </h1>
+<div class="container">
+    <h1 class="text-center  text-primary "> Sample Crud </h1>
 
     @yield('content')
+
+    <footer class="footer bg-primary  text-center">All copy right reserved by @Naja The Boss </footer>
 
 </div>
